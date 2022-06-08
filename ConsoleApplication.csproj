@@ -5,7 +5,11 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>ConsoleApplication.NestedLoop</StartupObject>
+    <StartupObject>ConsoleApplication.GarbageCollector</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Doc\" />
+  </ItemGroup>
 
 </Project>
